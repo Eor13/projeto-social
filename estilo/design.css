@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body{
@@ -11,7 +12,9 @@ html, body{
 }
 
 body{
-    background: black url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background-image: url('../imagens/fundo-madeira.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -34,10 +37,11 @@ section#phone{
 
 iframe#tela{
     position: relative;
-    top: 82px;
+    top: 83px;
     left: 23px;
     width: 265px;
     height: 466px;
+    transform: translate(0px, 0px);
 }
 #icones{
     text-align: right;
